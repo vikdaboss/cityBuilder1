@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://cxjtfawpd1ri5"]
+
+[ext_resource type="Script" uid="uid://day6rfs12ofh7" path="res://addons/flooreditor/flooreditor_button.gd" id="1_dc2s0"]
+
+[node name="FloorEditorUi" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="FloorEditorUI" type="Button" parent="."]
+layout_mode = 0
+offset_right = 319.0
+offset_bottom = 111.0
+text = "edit new Floor Plan"
+script = ExtResource("1_dc2s0")
+metadata/_custom_type_script = "uid://day6rfs12ofh7"
